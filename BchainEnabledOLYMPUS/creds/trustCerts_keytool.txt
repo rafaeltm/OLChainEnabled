@@ -1,0 +1,2 @@
+keytool -importcert -file tlsca.org1.example.com-cert.pem -alias org1CERT -keystore "C:\Program Files\Java\jdk1.8.0_211\jre\lib\security\cacerts" -storepass changeit
+keytool -importcert -file tlsca.example.com-cert.pem -alias fabCERT -keystore "C:\Program Files\Java\jdk1.8.0_211\jre\lib\security\cacerts" -storepass changeit

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">OLChain</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="btnLogin">Login!</string>
+    <string name="btnSignup">Sign Up!</string>
+    <string name="hintLogin">User</string>
+    <string name="hintPassword">Password</string>
+    <string name="btnSendRegister">Confirm</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="email">E-mail</string>
+    <string name="scrRegister">Sign-up</string>
+    <string name="btnIssuance">Credential obtention</string>
+    <string name="sign_with_eid">sign with eID</string>
+    <string name="hintRepeatPassword">Repeat\nPassword</string>
+    <string name="passwordNotMatch">Passwords do not match</string>
+    <string name="failRegister">Something failed while registering</string>
+    <string name="service">Service</string>
+    <string name="askPermissions">The service would like to know the following data</string>
+    <string name="askPermissionsText">You can accept or decline</string>
+    <string name="ok">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="failLogin">Wrong username or password</string>
+    <string name="satisfied">Satisfied</string>
+    <string name="notSatisfied">NotSatisfied</string>
+    <string name="noCredStored">No stored credential</string>
+    <string name="btnCreateAccount">Create account</string>
+    <string name="settingsTitle">Connect your accounts!</string>
+    <string name="education">University</string>
+    <string name="textInfo">Information</string>
+    <string name="wait">Please wait...</string>
+    <string name="settings_title_1">Login information</string>
+    <string name="settings_title_2">Sign Up information</string>
+    <string name="externalSource">External attribute sources</string>
+    <string name="saveButton">Save</string>
+    <string name="warning">WARNING!</string>
+    <string name="warning_msg">The service has communicated a different policy. You can continue or cancel the request. No personal data has been sent.</string>
+    <string name="settings_title_3">vIdP selection</string>
+    <string name="warningPubParams">The public parameters of the IdP do not match what is declared in the ledger.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

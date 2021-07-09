@@ -1,0 +1,6 @@
+rootProject.name = 'OlympusSmartContracts'
+include 'UserManager'
+include 'SharesManager'
+include 'PolicyManager'
+include 'OlympusManager'
+include 'Model'

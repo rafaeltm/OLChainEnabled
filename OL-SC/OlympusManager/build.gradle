@@ -1,0 +1,56 @@
+plugins {
+    id 'application'
+    id 'java'
+    id 'checkstyle'
+    id 'java-library-distribution'
+}
+
+group 'inf.um.es'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.hyperledger.fabric-chaincode-java:fabric-chaincode-shim:2.2.1'
+
+    implementation 'com.owlike:genson:1.5'
+
+    implementation project (':Model')
+
+    testImplementation 'org.hyperledger.fabric-chaincode-java:fabric-chaincode-shim:2.1.1'
+    testImplementation 'org.assertj:assertj-core:3.11.1'
+    testImplementation 'org.mockito:mockito-core:2.+'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    testImplementation fileTree(include: ['*.jar'], dir: 'libs')
+}
+
+repositories {
+    maven {
+        url "https://hyperledger.jfrog.io/hyperledger/fabric-maven"
+    }
+    jcenter()
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+application {
+    mainClass = 'contracts.OlympusManager'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+
+task copyMETA(type: Copy) {
+        from file("$projectDir/META-INF")
+        include "**/*"
+        into file("$buildDir/install/OlympusManager/META-INF")
+        println("COPY COMPLETED")
+}

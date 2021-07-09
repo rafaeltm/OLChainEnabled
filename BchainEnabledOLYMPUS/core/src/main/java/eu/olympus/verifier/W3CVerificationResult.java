@@ -1,0 +1,12 @@
+package eu.olympus.verifier;
+
+public enum W3CVerificationResult {
+
+	VALID,
+	INVALID_SIGNATURE,
+	BAD_TIMESTAMP,
+	POLICY_NOT_FULFILLED,
+	INVALID_POLICY,
+	INVALID_TOKEN,
+	INVALID_ATTRIBUTES
+}

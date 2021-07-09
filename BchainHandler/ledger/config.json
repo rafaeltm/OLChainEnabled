@@ -1,0 +1,10 @@
+{
+  "CAPATH": "./creds/ca.org1.example.com-cert.pem",
+  "NETCONFIGPATH": "./networkConfig.json",
+  "CAURL": "https://ca.org1.example.com:7054",
+  "DEFAULT_CHANNEL_NAME": "channel",
+  "DEFAULT_CHAINCODE_NAME": "chaincode1",
+  "DEFAULT_WALLET_ID": "appuser",
+  "DEFAULT_METHOD": "appuser",
+  "DEFAULT_PARAMETERS": "appuser"
+}

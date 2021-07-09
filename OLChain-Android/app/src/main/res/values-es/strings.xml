@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OLChain</string>
+    <string name="action_settings">Configuración</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="btnLogin">¡Entrar!</string>
+    <string name="btnSignup">¡Registrate!</string>
+    <string name="hintLogin">Usuario</string>
+    <string name="hintPassword">Contraseña</string>
+    <string name="btnSendRegister">Confirmar</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="email">E-mail</string>
+    <string name="scrRegister">Registro</string>
+    <string name="btnIssuance">Obtener credencial</string>
+    <string name="sign_with_eid">Registrarse con eID</string>
+    <string name="hintRepeatPassword">Repetir\ncontraseña</string>
+    <string name="passwordNotMatch">Las contraseñas no coinciden</string>
+    <string name="failRegister">Algó fallo durante el registro</string>
+    <string name="service">Servicio</string>
+    <string name="askPermissions">El servicio desea conocer los siguientes datos</string>
+    <string name="askPermissionsText">Puedes aceptar o rechazar</string>
+    <string name="ok">Aceptar</string>
+    <string name="reject">Rechazar</string>
+    <string name="failLogin">Usuario o contraseña erróneos</string>
+    <string name="satisfied">CUMPLE</string>
+    <string name="notSatisfied">NOCUMPLE</string>
+    <string name="noCredStored">Ningún credencial guardado</string>
+    <string name="btnCreateAccount">Crear una cuenta</string>
+    <string name="settingsTitle">Conecta tus cuentas</string>
+    <string name="education">Universidad</string>
+    <string name="textInfo">Información</string>
+    <string name="wait">Por favor espere...</string>
+    <string name="settings_title_1">Datos de acceso</string>
+    <string name="settings_title_2">Datos de registro</string>
+    <string name="externalSource">Fuentes de atributos externas</string>
+    <string name="saveButton">Guardar</string>
+    <string name="warning">¡ALERTA!</string>
+    <string name="warning_msg">El servicio ha comunicado una política distintas. Puedes continuar o cancelar la solicitud. Ningún dato personal ha sido enviado.</string>
+    <string name="settings_title_3">Selección de vIdP</string>
+    <string name="warningPubParams">Los parámetros públicos del IdP no coinciden con lo declarado en el ledger.</string>
+</resources>
